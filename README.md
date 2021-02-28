@@ -9,10 +9,12 @@ We're helping our friend Louise analyze how Kickstarter campaigns have done in t
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
 ![Theater Outcomes vs Launch](resources/Theater_Outcomes_vs_Launch.png)
+
 For this portion of the analysis we wanted to show the success/failure/cancelled distribution over the months of the year of all the 'theater' campaigns. We created a pivot table of the data by using the 'Date Created Conversion' and showing just the month portion of that date for the rows with the outcome of the campaign as the columns. We used this pivot table to create the above graph which allows you to better visualize the distirbution of the outcomes of the campaigns based on the month they launched.
 
 ### Analysis of Outcomes Based on Goals
 ![Outcomes vs Goals](resources/Outcomes_vs_Goals.png)
+
 For this portion of the analysis we wanted to get a better idea of the outcomes of the campaigns based on how much money their initial goals for the campaign were for all campaigns labelled as 'plays'. To do this we took all campaigns with the 'plays' subcategory and split them into 12 ascending groups starting with <$1K and then going up by multiples of $5K with the last being all campaigns with over $50K as a goal. We setup columns to first count the number of campaigns and then to find the percentage of campaigns in each of the three different outcomes available. We took that data and input it onto the above graph to show the percentage of successful/failed/cancelled campaigns in each goal category we setup.
 
 ### Challenges and Difficulties Encountered
